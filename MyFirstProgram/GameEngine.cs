@@ -23,6 +23,8 @@
                 Console.WriteLine($"{firstNumber} - {secondNumber}");
                 var result = Console.ReadLine();
 
+                result = Helpers.ValidateResult(result);
+
                 if (int.Parse(result) == firstNumber - secondNumber)
                 {
                     Console.WriteLine("Your answer was correct! Press any key for the next question");
@@ -66,6 +68,8 @@
                 Console.WriteLine($"{firstNumber} * {secondNumber}");
                 var result = Console.ReadLine();
 
+                result = Helpers.ValidateResult(result);
+
                 if (int.Parse(result) == firstNumber * secondNumber)
                 {
                     Console.WriteLine("Your answer was correct! Press any key for the next question");
@@ -104,6 +108,8 @@
                 Console.WriteLine($"{firstNumber} / {secondNumber}");
                 var result = Console.ReadLine();
 
+                result = Helpers.ValidateResult(result);
+
                 if (int.Parse(result) == firstNumber / secondNumber)
                 {
                     Console.WriteLine("Your answer was correct! Press any key for the next question");
@@ -129,8 +135,7 @@
 
         internal void AdditionGame(string message)
         {
-
-
+        
             var random = new Random();
             int firstNumber;
             int secondNumber;
@@ -146,6 +151,8 @@
 
                 Console.WriteLine($"{firstNumber} + {secondNumber}");
                 var result = Console.ReadLine();
+
+                result = Helpers.ValidateResult(result);
 
                 if (int.Parse(result) == firstNumber + secondNumber)
                 {
