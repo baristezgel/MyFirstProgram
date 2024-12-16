@@ -7,7 +7,7 @@
         {
 
             Console.Clear();
-            Console.WriteLine($"Hello {name.ToUpper()}. It's {date.DayOfWeek}. This is your math game. That's great that you're working on improving yourself!\n");
+            Console.WriteLine($"Hello {name.ToUpper()}. It's {date.DayOfWeek}. This is a really stupid math game. Imagine playing this garbage. Also fuck you Zach.\n");
             Console.WriteLine("Press any key to show menu");
             Console.ReadLine();
             Console.WriteLine("\n");
