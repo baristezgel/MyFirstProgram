@@ -41,7 +41,7 @@
                     Console.ReadLine();
                 }
             }
-            Helpers.AddToHistory(score, "Subtraction");
+            Helpers.AddToHistory(score, Models.GameType.Subtraction);
 
 
         }
@@ -84,7 +84,7 @@
                     Console.ReadLine();
                 }
             }
-            Helpers.AddToHistory(score, "Multiplication");
+            Helpers.AddToHistory(score, Models.GameType.Multiplication);
         }
 
         internal void DivisionGame(string message)
@@ -123,7 +123,7 @@
                 }
 
             }
-            Helpers.AddToHistory(score, "Division");
+            Helpers.AddToHistory(score, Models.GameType.Division);
 
         }
 
@@ -166,7 +166,7 @@
                 }
             }
 
-            Helpers.AddToHistory(score, "Addition");
+            Helpers.AddToHistory(score, Models.GameType.Addition);
         }
     }
 }

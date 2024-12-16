@@ -8,3 +8,12 @@ internal class Game
 
     public string Type { get; set; }
 }   
+
+
+internal enum GameType
+{
+    Addition,
+    Subtraction,
+    Multiplication,
+    Division
+}
